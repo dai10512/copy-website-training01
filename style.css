@@ -1,0 +1,82 @@
+body{
+  text-align:center;
+}
+
+.logo img{
+  margin-top:15px;
+}
+
+
+.menu{
+  text-align: center;
+  justify-content:center;
+  margin-top:30px;
+  margin-bottom:30px;
+  display:flex;
+  /* background-color: rosybrown; */
+  /* grid-area:men; */
+}
+
+.menu li{
+  /* display:flex; */
+  margin-left: 32px;
+  margin-right: 32px;
+  font-size:16px;
+  width:120px;
+}
+
+.top-image{
+  background-image:url("/Users/osanaidaisuke/Desktop/free-hp.net/03.jpg");
+  height:500px;
+  background-position: right top;
+  /* margin-right:-300px; */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 50% 100%, 0% 70%);
+  z-index:0;
+}
+
+.top-text-box{
+  height:auto;
+  /* margin-left:100px; */
+  text-align:left;
+  width: 710px;
+  padding-top:90px;
+  margin-left:150px;
+  color:#666666;
+}
+
+.top-text-box1 h1{
+  font-size:40px;
+  margin-bottom:45px;
+  font-weight:700;
+  transform: rotate(-3deg);
+}
+
+.top-text-box2 h1{
+  font-size:32px;
+  margin-bottom:15px;
+  font-weight:700;
+}
+
+.top-text-box2 p{
+  font-size:16px;
+  padding-left:15px;
+  margin-bottom:50px;
+  line-height:25px;
+  /* font-weight:700; */
+}
+
+.apply-btn{
+  background-color: #343a40;
+  font-size:20px;
+  padding:25px;
+  border-radius: 8px;
+  color:white;
+  /* margin-left:-6%; */
+}
+
+.apply-btn img{
+  width: 20px;
+  padding-bottom:4px;
+  text-align: center;
+  /* margin-top: -50px ; */
+}
